@@ -1,0 +1,38 @@
+{
+  "name": "CreateEdgeInstance",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "IotInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Name",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Spec",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Tags",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ModifyFlowLogAttribute",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FlowLogId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "FlowLogName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "name": "CreateStackGroup",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AdministrationRoleName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AutoDeployment",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ExecutionRoleName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Parameters",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false,
+      "sub_parameters": [
+        {
+          "name": "ParameterKey",
+          "position": "Query",
+          "type": "String",
+          "required": true
+        },
+        {
+          "name": "ParameterValue",
+          "position": "Query",
+          "type": "String",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "PermissionModel",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ResourceGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "StackGroupName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TemplateBody",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TemplateId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TemplateURL",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TemplateVersion",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

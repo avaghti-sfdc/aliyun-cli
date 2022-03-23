@@ -1,0 +1,126 @@
+{
+  "name": "CreateTrafficMirrorFilter",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DryRun",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "EgressRules",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false,
+      "sub_parameters": [
+        {
+          "name": "DestinationCidrBlock",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "DestinationPortRange",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Priority",
+          "position": "Query",
+          "type": "Integer",
+          "required": false
+        },
+        {
+          "name": "Protocol",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "SourceCidrBlock",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "SourcePortRange",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "IngressRules",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false,
+      "sub_parameters": [
+        {
+          "name": "DestinationCidrBlock",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "DestinationPortRange",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Priority",
+          "position": "Query",
+          "type": "Integer",
+          "required": false
+        },
+        {
+          "name": "Protocol",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "SourceCidrBlock",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "SourcePortRange",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TrafficMirrorFilterDescription",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TrafficMirrorFilterName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

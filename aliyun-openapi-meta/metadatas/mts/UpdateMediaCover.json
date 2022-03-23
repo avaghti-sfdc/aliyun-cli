@@ -1,0 +1,26 @@
+{
+  "name": "UpdateMediaCover",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CoverURL",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MediaId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

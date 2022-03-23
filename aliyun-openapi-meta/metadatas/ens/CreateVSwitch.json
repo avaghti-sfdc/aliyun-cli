@@ -1,0 +1,44 @@
+{
+  "name": "CreateVSwitch",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CidrBlock",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "EnsRegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "NetworkId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "VSwitchName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Version",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

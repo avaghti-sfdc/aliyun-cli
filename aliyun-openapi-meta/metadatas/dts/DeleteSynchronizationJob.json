@@ -1,0 +1,32 @@
+{
+  "name": "DeleteSynchronizationJob",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AccountId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SynchronizationJobId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

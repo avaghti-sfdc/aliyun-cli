@@ -1,0 +1,26 @@
+{
+  "name": "DescribeHoneyPotSuspStatistics",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "From",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "StatisticsDays",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "StatisticsKeyType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

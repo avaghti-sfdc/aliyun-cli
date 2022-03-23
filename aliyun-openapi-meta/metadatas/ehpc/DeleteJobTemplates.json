@@ -1,0 +1,20 @@
+{
+  "name": "DeleteJobTemplates",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Templates",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

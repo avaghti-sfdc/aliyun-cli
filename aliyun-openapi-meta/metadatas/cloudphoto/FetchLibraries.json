@@ -1,0 +1,32 @@
+{
+  "name": "FetchLibraries",
+  "protocol": "HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "NeedQuota",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "Page",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Size",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "StoreName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

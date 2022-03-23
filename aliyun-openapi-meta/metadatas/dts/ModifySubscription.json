@@ -1,0 +1,44 @@
+{
+  "name": "ModifySubscription",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DbList",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DtsInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DtsJobId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SubscriptionDataTypeDDL",
+      "position": "Query",
+      "type": "Boolean",
+      "required": true
+    },
+    {
+      "name": "SubscriptionDataTypeDML",
+      "position": "Query",
+      "type": "Boolean",
+      "required": true
+    }
+  ]
+}

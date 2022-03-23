@@ -1,0 +1,14 @@
+{
+  "name": "DescribeTSA",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "SequenceWithinLedger",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

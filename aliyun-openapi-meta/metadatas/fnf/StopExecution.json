@@ -1,0 +1,38 @@
+{
+  "name": "StopExecution",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Cause",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Error",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ExecutionName",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "FlowName",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RequestId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

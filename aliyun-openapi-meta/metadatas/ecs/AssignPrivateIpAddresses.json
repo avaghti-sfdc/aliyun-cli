@@ -1,0 +1,38 @@
+{
+  "name": "AssignPrivateIpAddresses",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "NetworkInterfaceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "PrivateIpAddress",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SecondaryPrivateIpAddressCount",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    }
+  ]
+}

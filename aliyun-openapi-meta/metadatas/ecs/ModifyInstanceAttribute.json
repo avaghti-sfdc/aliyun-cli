@@ -1,0 +1,80 @@
+{
+  "name": "ModifyInstanceAttribute",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CreditSpecification",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DeletionProtection",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "HostName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "InstanceName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "NetworkInterfaceQueueNumber",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Password",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Recyclable",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "RemoteConnectionOptions",
+      "position": "Query",
+      "type": "Struct",
+      "required": false
+    },
+    {
+      "name": "SecurityGroupIds",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "UserData",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

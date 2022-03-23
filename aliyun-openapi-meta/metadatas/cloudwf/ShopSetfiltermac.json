@@ -1,0 +1,26 @@
+{
+  "name": "ShopSetfiltermac",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Mac",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Sid",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

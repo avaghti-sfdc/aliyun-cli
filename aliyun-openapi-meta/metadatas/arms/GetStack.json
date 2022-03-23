@@ -1,0 +1,32 @@
+{
+  "name": "GetStack",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Pid",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RpcID",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TraceID",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

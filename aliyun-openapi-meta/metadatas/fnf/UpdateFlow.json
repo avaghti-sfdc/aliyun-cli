@@ -1,0 +1,44 @@
+{
+  "name": "UpdateFlow",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Definition",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Description",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Name",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RequestId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RoleArn",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Type",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

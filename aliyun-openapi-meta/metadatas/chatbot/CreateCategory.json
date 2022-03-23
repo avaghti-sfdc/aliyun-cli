@@ -1,0 +1,38 @@
+{
+  "name": "CreateCategory",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AgentKey",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "BizCode",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "KnowledgeType",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Name",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ParentCategoryId",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "SetDomainRuleGroup",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Domains",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ResourceGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RuleGroupId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "WafAiStatus",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "WafVersion",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

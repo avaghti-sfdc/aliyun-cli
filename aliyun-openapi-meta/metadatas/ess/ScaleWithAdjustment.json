@@ -1,0 +1,44 @@
+{
+  "name": "ScaleWithAdjustment",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AdjustmentType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "AdjustmentValue",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MinAdjustmentMagnitude",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "ScalingGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

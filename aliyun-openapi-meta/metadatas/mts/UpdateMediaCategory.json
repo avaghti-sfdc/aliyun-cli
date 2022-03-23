@@ -1,0 +1,26 @@
+{
+  "name": "UpdateMediaCategory",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CateId",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    },
+    {
+      "name": "MediaId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

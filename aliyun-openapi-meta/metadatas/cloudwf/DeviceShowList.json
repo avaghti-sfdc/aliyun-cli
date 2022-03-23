@@ -1,0 +1,44 @@
+{
+  "name": "DeviceShowList",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DeviceType",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Dirc",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Page",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "Per",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "Sid",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "GetResourceTypeTemplate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "/V2/GetResourceTypeTemplate",
+  "parameters": [
+    {
+      "name": "ResourceType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "ListApAssetCanBeAdded",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ApgroupId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "Length",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "PageIndex",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "SearchMac",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SearchModel",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SearchName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

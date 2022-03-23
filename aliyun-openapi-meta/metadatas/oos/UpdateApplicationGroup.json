@@ -1,0 +1,32 @@
+{
+  "name": "UpdateApplicationGroup",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "/UpdateApplicationGroup",
+  "parameters": [
+    {
+      "name": "ApplicationName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Name",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "NewName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "DeleteTLSCipherPolicy",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TLSCipherPolicyId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

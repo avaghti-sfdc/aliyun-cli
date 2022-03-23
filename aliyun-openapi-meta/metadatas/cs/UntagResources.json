@@ -1,0 +1,26 @@
+{
+  "name": "UntagResources",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/tags",
+  "parameters": [
+    {
+      "name": "all",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "region_id",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "resource_type",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

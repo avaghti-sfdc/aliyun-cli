@@ -1,0 +1,32 @@
+{
+  "name": "ForbidPushStream",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AppId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "EndTime",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RoomId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "UserData",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "CreateNotificationConfiguration",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "NotificationArn",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "NotificationType",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": true
+    },
+    {
+      "name": "ScalingGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ConfigInstanceWhiteList",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "WhiteList",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    }
+  ]
+}

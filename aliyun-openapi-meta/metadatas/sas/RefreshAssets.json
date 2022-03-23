@@ -1,0 +1,14 @@
+{
+  "name": "RefreshAssets",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AssetType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

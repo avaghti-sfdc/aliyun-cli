@@ -1,0 +1,20 @@
+{
+  "name": "ListRemediationTemplates",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ManagedRuleIdentifier",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RemediationType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

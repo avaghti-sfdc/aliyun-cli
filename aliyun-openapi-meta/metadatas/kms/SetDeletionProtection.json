@@ -1,0 +1,26 @@
+{
+  "name": "SetDeletionProtection",
+  "protocol": "HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DeletionProtectionDescription",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "EnableDeletionProtection",
+      "position": "Query",
+      "type": "Boolean",
+      "required": true
+    },
+    {
+      "name": "ProtectedResourceArn",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

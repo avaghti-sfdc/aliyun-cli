@@ -1,0 +1,32 @@
+{
+  "name": "SetGWSInstanceUser",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "UserName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "UserUid",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

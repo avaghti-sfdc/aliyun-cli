@@ -1,0 +1,26 @@
+{
+  "name": "GetMonthlyBill",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "BillOwner",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "BillType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Month",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

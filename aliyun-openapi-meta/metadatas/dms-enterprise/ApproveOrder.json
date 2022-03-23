@@ -1,0 +1,32 @@
+{
+  "name": "ApproveOrder",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ApprovalType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Comment",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Tid",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    },
+    {
+      "name": "WorkflowInstanceId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

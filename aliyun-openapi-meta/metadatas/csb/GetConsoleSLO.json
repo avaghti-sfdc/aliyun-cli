@@ -1,0 +1,7 @@
+{
+  "name": "GetConsoleSLO",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": []
+}

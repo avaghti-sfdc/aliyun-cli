@@ -1,0 +1,38 @@
+{
+  "name": "CreateTemplate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ResourceGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TemplateBody",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TemplateName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TemplateURL",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DescribeLiveStreamTranscodeInfo",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DomainTranscodeName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

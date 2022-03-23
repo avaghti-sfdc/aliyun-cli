@@ -1,0 +1,62 @@
+{
+  "name": "ModifyUser",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Comment",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DisplayName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Email",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Mobile",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MobileCountryCode",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Password",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "UserId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

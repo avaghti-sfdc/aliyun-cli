@@ -1,0 +1,14 @@
+{
+  "name": "NtmPayOrderCallback",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST|PUT",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "data",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

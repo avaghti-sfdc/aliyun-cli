@@ -1,0 +1,86 @@
+{
+  "name": "DescribeAlarmEventList",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AlarmEventName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AlarmEventType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CurrentPage",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "Dealed",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "From",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "GroupId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Lang",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Levels",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "OperateErrorCodeList",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Remark",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SourceIp",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TacticId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

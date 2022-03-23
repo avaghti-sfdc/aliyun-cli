@@ -1,0 +1,62 @@
+{
+  "name": "BatchSendMail",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AccountName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "AddressType",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "ClickTrace",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ReceiversName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ReplyAddress",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ReplyAddressAlias",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TagName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TemplateName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

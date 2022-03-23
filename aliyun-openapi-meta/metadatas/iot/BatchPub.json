@@ -1,0 +1,44 @@
+{
+  "name": "BatchPub",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DeviceName",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": true
+    },
+    {
+      "name": "IotInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MessageContent",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ProductKey",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Qos",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "TopicShortName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

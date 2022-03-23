@@ -1,0 +1,38 @@
+{
+  "name": "DescribeExposedStatisticsDetail",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CurrentPage",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "StatisticsType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "StatisticsTypeGatewayType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "StatisticsTypeInstanceValue",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

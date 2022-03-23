@@ -1,0 +1,14 @@
+{
+  "name": "RemoveMockRule",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "/pop/sp/api/mock/removeMockRule",
+  "parameters": [
+    {
+      "name": "Id",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

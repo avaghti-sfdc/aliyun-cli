@@ -1,0 +1,38 @@
+{
+  "name": "AssociateGlobalAccelerationInstance",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "BackendServerId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "BackendServerRegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "BackendServerType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "GlobalAccelerationInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

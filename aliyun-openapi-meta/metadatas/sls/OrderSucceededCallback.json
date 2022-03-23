@@ -1,0 +1,14 @@
+{
+  "name": "OrderSucceededCallback",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "data",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "EnableBillGeneration",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST|PUT",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ProductCode",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

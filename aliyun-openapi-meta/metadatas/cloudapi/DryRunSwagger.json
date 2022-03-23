@@ -1,0 +1,50 @@
+{
+  "name": "DryRunSwagger",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Data",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DataFormat",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "GlobalCondition",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "GroupId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Overwrite",
+      "position": "Query",
+      "type": "Boolean",
+      "required": true
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

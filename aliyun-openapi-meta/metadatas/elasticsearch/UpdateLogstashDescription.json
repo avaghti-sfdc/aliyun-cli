@@ -1,0 +1,20 @@
+{
+  "name": "UpdateLogstashDescription",
+  "protocol": "HTTP|HTTPS",
+  "method": "PATCH|POST",
+  "pathPattern": "/openapi/logstashes/[InstanceId]/description",
+  "parameters": [
+    {
+      "name": "InstanceId",
+      "position": "Path",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "clientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

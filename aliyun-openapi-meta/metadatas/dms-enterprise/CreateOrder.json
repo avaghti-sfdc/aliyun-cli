@@ -1,0 +1,44 @@
+{
+  "name": "CreateOrder",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AttachmentKey",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Comment",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "PluginParam",
+      "position": "Body",
+      "type": "Json",
+      "required": true
+    },
+    {
+      "name": "PluginType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RelatedUserList",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Tid",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

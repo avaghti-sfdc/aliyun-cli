@@ -1,0 +1,52 @@
+{
+  "name": "ScanImage",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Scene",
+      "position": "Body",
+      "type": "RepeatList",
+      "required": true
+    },
+    {
+      "name": "Task",
+      "position": "Body",
+      "type": "RepeatList",
+      "required": true,
+      "sub_parameters": [
+        {
+          "name": "DataId",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "ImageTimeMillisecond",
+          "position": "Body",
+          "type": "Long",
+          "required": false
+        },
+        {
+          "name": "ImageURL",
+          "position": "Body",
+          "type": "String",
+          "required": true
+        },
+        {
+          "name": "Interval",
+          "position": "Body",
+          "type": "Integer",
+          "required": false
+        },
+        {
+          "name": "MaxFrames",
+          "position": "Body",
+          "type": "Integer",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

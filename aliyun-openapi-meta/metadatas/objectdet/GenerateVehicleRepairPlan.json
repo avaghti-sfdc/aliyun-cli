@@ -1,0 +1,28 @@
+{
+  "name": "GenerateVehicleRepairPlan",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DamageImageList",
+      "position": "Body",
+      "type": "RepeatList",
+      "required": true,
+      "sub_parameters": [
+        {
+          "name": "CreateTimeStamp",
+          "position": "Body",
+          "type": "String",
+          "required": true
+        },
+        {
+          "name": "ImageUrl",
+          "position": "Body",
+          "type": "String",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ModifyElasticityAssurance",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PrivatePoolOptions.Id",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "PrivatePoolOptions.Name",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

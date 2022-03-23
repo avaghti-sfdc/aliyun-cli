@@ -1,0 +1,26 @@
+{
+  "name": "DeleteSourceServer",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Force",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "SourceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "UnassignPrivateIpAddresses",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "NetworkInterfaceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "PrivateIpAddress",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "DeleteDynamicImage",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DynamicImageIds",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "VideoId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

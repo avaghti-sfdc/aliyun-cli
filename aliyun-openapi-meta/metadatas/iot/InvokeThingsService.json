@@ -1,0 +1,44 @@
+{
+  "name": "InvokeThingsService",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Args",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DeviceName",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": true
+    },
+    {
+      "name": "Identifier",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "IotInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ProductKey",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

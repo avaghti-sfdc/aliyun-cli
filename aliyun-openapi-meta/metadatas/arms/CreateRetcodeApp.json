@@ -1,0 +1,26 @@
+{
+  "name": "CreateRetcodeApp",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RetcodeAppName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RetcodeAppType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

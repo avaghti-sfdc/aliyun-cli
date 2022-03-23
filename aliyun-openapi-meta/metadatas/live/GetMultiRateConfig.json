@@ -1,0 +1,26 @@
+{
+  "name": "GetMultiRateConfig",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "App",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DomainName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "GroupId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

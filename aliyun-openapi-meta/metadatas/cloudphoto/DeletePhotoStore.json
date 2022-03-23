@@ -1,0 +1,14 @@
+{
+  "name": "DeletePhotoStore",
+  "protocol": "HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "StoreName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

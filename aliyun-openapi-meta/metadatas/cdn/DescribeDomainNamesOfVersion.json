@@ -1,0 +1,26 @@
+{
+  "name": "DescribeDomainNamesOfVersion",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "PageIndex",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "VersionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

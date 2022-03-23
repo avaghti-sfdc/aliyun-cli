@@ -1,0 +1,80 @@
+{
+  "name": "SendFile",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Content",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ContentType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FileGroup",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FileMode",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FileOwner",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": true
+    },
+    {
+      "name": "Name",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Overwrite",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TargetDir",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Timeout",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "DescribeDomainTopAttackList",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "EndTime",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "ResourceGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "StartTime",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "CreateDataAPIService",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ApiPath",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Desc",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DisplayName",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "IotInstanceId",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "OriginSql",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RequestParam",
+      "position": "Body",
+      "type": "RepeatList",
+      "required": false,
+      "sub_parameters": [
+        {
+          "name": "Desc",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Example",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Name",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Required",
+          "position": "Body",
+          "type": "Boolean",
+          "required": false
+        },
+        {
+          "name": "Type",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "ResponseParam",
+      "position": "Body",
+      "type": "RepeatList",
+      "required": false,
+      "sub_parameters": [
+        {
+          "name": "Desc",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Example",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Name",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Required",
+          "position": "Body",
+          "type": "Boolean",
+          "required": false
+        },
+        {
+          "name": "Type",
+          "position": "Body",
+          "type": "String",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "TemplateSql",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

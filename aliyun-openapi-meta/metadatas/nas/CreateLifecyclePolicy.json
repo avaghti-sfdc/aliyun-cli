@@ -1,0 +1,44 @@
+{
+  "name": "CreateLifecyclePolicy",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST|PUT",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "FileSystemId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "LifecyclePolicyName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "LifecycleRuleName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Path",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Paths",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "StorageType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

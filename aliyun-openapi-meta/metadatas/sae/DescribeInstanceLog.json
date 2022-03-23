@@ -1,0 +1,14 @@
+{
+  "name": "DescribeInstanceLog",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "/pop/v1/sam/instance/describeInstanceLog",
+  "parameters": [
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

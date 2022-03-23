@@ -1,0 +1,20 @@
+{
+  "name": "SetCreditStatus",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CreditStatus",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "Uid",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

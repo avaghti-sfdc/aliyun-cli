@@ -1,0 +1,7 @@
+{
+  "name": "TagResources",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "/openapi/tags",
+  "parameters": []
+}

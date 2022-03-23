@@ -1,0 +1,32 @@
+{
+  "name": "ReportTaskFailed",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Cause",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Error",
+      "position": "Body",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RequestId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TaskToken",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

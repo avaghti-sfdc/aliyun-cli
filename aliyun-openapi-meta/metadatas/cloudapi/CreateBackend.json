@@ -1,0 +1,44 @@
+{
+  "name": "CreateBackend",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "BackendName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "BackendType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "CreateEventBridgeServiceLinkedRole",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

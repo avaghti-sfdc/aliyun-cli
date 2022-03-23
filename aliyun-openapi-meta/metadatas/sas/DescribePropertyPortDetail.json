@@ -1,0 +1,50 @@
+{
+  "name": "DescribePropertyPortDetail",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "BindIp",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CurrentPage",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Port",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ProcName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Remark",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Uuid",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

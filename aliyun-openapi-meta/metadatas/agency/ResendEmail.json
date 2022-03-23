@@ -1,0 +1,14 @@
+{
+  "name": "ResendEmail",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "InviteId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

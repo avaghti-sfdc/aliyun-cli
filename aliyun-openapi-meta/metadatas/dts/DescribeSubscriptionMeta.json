@@ -1,0 +1,38 @@
+{
+  "name": "DescribeSubscriptionMeta",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DtsInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Sid",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SubMigrationJobIds",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "Topics",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    }
+  ]
+}

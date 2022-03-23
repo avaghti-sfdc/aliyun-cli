@@ -1,0 +1,14 @@
+{
+  "name": "GetCreditInfo",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Uid",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

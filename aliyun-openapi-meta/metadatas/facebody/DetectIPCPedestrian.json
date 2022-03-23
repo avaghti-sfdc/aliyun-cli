@@ -1,0 +1,32 @@
+{
+  "name": "DetectIPCPedestrian",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Height",
+      "position": "Body",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "ImageData",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ImageURL",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Width",
+      "position": "Body",
+      "type": "Integer",
+      "required": false
+    }
+  ]
+}

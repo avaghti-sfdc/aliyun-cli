@@ -1,0 +1,14 @@
+{
+  "name": "FindBrokerSLOList",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CsbId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

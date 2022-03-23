@@ -1,0 +1,56 @@
+{
+  "name": "CreateFlowLog",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FlowLogName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "LogStoreName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ProjectName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ResourceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ResourceType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TrafficType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "DeleteMixStream",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AppName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DomainName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "MixStreamId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "StreamName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

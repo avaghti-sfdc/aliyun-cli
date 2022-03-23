@@ -1,0 +1,68 @@
+{
+  "name": "ModifyDtsJob",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DbList",
+      "position": "Body",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "DtsInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "EtlOperatorColumnReference",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FileOssUrl",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ModifyTypeEnum",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Reserved",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SynchronizationDirection",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

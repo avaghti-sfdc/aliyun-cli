@@ -1,0 +1,50 @@
+{
+  "name": "GetAlertRules",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AlertIds",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AlertNames",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AlertStatus",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AlertType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Page",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Size",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

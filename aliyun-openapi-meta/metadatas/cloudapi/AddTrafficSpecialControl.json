@@ -1,0 +1,44 @@
+{
+  "name": "AddTrafficSpecialControl",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SpecialKey",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SpecialType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TrafficControlId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TrafficValue",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ListTagResources",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "/tags",
+  "parameters": [
+    {
+      "name": "next_token",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "region_id",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "resource_type",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DescribeEnsNetLevel",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Version",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

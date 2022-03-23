@@ -1,0 +1,56 @@
+{
+  "name": "SetDomainCertificate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CaCertificateBody",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CertificateBody",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CertificateName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "CertificatePrivateKey",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DomainName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "GroupId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

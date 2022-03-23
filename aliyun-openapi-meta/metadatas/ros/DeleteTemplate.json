@@ -1,0 +1,14 @@
+{
+  "name": "DeleteTemplate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "/V2/DeleteTemplate",
+  "parameters": [
+    {
+      "name": "TemplateId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

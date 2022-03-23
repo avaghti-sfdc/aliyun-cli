@@ -1,0 +1,26 @@
+{
+  "name": "UpdateLiveTopLevelDomain",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DomainName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TopLevelDomain",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "DescribeAuditLogRecords",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DBClusterId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DBName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "EndTime",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "HostAddress",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Order",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "OrderType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PageNumber",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "QueryKeyword",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SqlType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "StartTime",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Succeed",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "User",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

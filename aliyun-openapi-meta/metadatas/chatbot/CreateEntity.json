@@ -1,0 +1,44 @@
+{
+  "name": "CreateEntity",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AgentKey",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DialogId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "EntityName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "EntityType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Members",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Regex",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

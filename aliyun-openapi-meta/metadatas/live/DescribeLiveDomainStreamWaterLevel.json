@@ -1,0 +1,14 @@
+{
+  "name": "DescribeLiveDomainStreamWaterLevel",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "LiveRegion",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

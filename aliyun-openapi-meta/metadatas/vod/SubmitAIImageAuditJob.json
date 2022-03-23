@@ -1,0 +1,32 @@
+{
+  "name": "SubmitAIImageAuditJob",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MediaAuditConfiguration",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MediaId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TemplateId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

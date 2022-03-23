@@ -1,0 +1,50 @@
+{
+  "name": "AddLiveDomain",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CheckUrl",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DomainName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "LiveDomainType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Region",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Scope",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TopLevelDomain",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

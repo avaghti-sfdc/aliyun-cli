@@ -1,0 +1,50 @@
+{
+  "name": "ReEncrypt",
+  "protocol": "HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "CiphertextBlob",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DestinationEncryptionContext",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "DestinationKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SourceEncryptionAlgorithm",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SourceEncryptionContext",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "SourceKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SourceKeyVersionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

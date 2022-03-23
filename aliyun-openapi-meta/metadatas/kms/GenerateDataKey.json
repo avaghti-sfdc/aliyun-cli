@@ -1,0 +1,32 @@
+{
+  "name": "GenerateDataKey",
+  "protocol": "HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "EncryptionContext",
+      "position": "Query",
+      "type": "Json",
+      "required": false
+    },
+    {
+      "name": "KeyId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "KeySpec",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "NumberOfBytes",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    }
+  ]
+}

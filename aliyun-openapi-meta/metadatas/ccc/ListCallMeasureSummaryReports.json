@@ -1,0 +1,20 @@
+{
+  "name": "ListCallMeasureSummaryReports",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "IntervalType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

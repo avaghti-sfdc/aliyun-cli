@@ -1,0 +1,7 @@
+{
+  "name": "ListSlb",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "/pop/v5/slb_list",
+  "parameters": []
+}

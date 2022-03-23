@@ -1,0 +1,26 @@
+{
+  "name": "UpdateOIDCProvider",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ClientIds",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "NewDescription",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "OIDCProviderName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

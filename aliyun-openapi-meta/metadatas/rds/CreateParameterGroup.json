@@ -1,0 +1,56 @@
+{
+  "name": "CreateParameterGroup",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Engine",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "EngineVersion",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ParameterGroupDesc",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ParameterGroupName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Parameters",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

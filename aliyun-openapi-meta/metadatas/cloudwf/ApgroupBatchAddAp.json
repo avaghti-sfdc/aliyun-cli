@@ -1,0 +1,26 @@
+{
+  "name": "ApgroupBatchAddAp",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ApAssetIds",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ApgroupId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

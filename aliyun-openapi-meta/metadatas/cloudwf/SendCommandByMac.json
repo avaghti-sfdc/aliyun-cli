@@ -1,0 +1,26 @@
+{
+  "name": "SendCommandByMac",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Command",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "MacList",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": true
+    }
+  ]
+}

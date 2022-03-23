@@ -1,0 +1,56 @@
+{
+  "name": "SetGWSClusterPolicy",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AsyncMode",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "Clipboard",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ClusterId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "LocalDrive",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "UdpPort",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "UsbRedirect",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Watermark",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "CreatePostPayOrder",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DeployType",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "DiskSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "DiskType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "EipMax",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "IoMax",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "IoMaxSpec",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SpecType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TopicQuota",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    }
+  ]
+}

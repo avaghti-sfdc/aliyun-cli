@@ -1,0 +1,14 @@
+{
+  "name": "DeleteCustomTemplate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Template",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

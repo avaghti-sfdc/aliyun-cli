@@ -1,0 +1,56 @@
+{
+  "name": "ListExecutions",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ExecutionNamePrefix",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FlowName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Limit",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "NextToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RequestId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "StartedTimeBegin",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "StartedTimeEnd",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Status",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

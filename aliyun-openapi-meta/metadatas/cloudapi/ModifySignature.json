@@ -1,0 +1,44 @@
+{
+  "name": "ModifySignature",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SignatureId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SignatureKey",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SignatureName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SignatureSecret",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

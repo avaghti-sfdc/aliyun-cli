@@ -1,0 +1,32 @@
+{
+  "name": "ListFpShotFiles",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FpDBId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "NextPageToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    }
+  ]
+}

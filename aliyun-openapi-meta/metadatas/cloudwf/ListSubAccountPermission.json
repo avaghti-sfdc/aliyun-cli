@@ -1,0 +1,32 @@
+{
+  "name": "ListSubAccountPermission",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Length",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "PageIndex",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "SearchUid",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "CreateResourcePackage",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Duration",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "EffectiveDate",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PackageType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PricingCycle",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ProductCode",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Specification",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

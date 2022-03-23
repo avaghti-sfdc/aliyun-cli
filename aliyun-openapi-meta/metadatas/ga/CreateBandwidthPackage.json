@@ -1,0 +1,92 @@
+{
+  "name": "CreateBandwidthPackage",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AutoPay",
+      "position": "Query",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "AutoUseCoupon",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Bandwidth",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "BandwidthType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "BillingType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CbnGeographicRegionIdA",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CbnGeographicRegionIdB",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ChargeType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Duration",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PricingCycle",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Ratio",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Type",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

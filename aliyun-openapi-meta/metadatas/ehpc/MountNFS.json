@@ -1,0 +1,44 @@
+{
+  "name": "MountNFS",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "MountDir",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "NfsDir",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ProtocolType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RemoteDir",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

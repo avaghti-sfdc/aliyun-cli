@@ -1,0 +1,50 @@
+{
+  "name": "CreateSnatEntry",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "ClientToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SnatEntryName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SnatIp",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SnatTableId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SourceCIDR",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SourceVSwitchId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

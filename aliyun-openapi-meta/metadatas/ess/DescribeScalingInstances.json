@@ -1,0 +1,74 @@
+{
+  "name": "DescribeScalingInstances",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CreationType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "HealthStatus",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "LifecycleState",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PageNumber",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ScalingActivityId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ScalingConfigurationId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ScalingGroupId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

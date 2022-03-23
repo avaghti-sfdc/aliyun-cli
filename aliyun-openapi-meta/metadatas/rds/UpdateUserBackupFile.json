@@ -1,0 +1,44 @@
+{
+  "name": "UpdateUserBackupFile",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "BackupId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Comment",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Retention",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    }
+  ]
+}

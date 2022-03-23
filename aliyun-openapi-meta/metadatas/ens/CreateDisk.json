@@ -1,0 +1,32 @@
+{
+  "name": "CreateDisk",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Category",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "EnsRegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "InstanceChargeType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Size",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

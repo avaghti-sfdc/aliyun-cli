@@ -1,0 +1,74 @@
+{
+  "name": "CreateDBProxyEndpointAddress",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ConnectionStringPrefix",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DBInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DBInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DBProxyConnectStringNetType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DBProxyEndpointId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "DBProxyNewConnectStringPort",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "VPCId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "VSwitchId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

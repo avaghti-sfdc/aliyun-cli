@@ -1,0 +1,20 @@
+{
+  "name": "PpsSetProjectOverDueStatus",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "OverDueMoney",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "Pid",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

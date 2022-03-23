@@ -1,0 +1,26 @@
+{
+  "name": "QuerySmarttagJob",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "JobId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Params",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

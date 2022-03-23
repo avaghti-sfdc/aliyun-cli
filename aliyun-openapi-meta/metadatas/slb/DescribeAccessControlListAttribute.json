@@ -1,0 +1,26 @@
+{
+  "name": "DescribeAccessControlListAttribute",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AclEntryComment",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AclId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "RestartApplication",
+  "protocol": "HTTP|HTTPS",
+  "method": "PUT",
+  "pathPattern": "/pop/v1/sam/app/restartApplication",
+  "parameters": [
+    {
+      "name": "AppId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "MinReadyInstanceRatio",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "MinReadyInstances",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    }
+  ]
+}

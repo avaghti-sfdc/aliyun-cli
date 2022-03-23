@@ -1,0 +1,26 @@
+{
+  "name": "DescribeDTSIP",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DestinationEndpointRegion",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SourceEndpointRegion",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "HandleSecurityEvents",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "MarkBatch",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MarkMissParam",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "OperationCode",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "OperationParams",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SecurityEventIds",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "SourceIp",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

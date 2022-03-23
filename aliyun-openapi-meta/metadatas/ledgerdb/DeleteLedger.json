@@ -1,0 +1,14 @@
+{
+  "name": "DeleteLedger",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "LedgerId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

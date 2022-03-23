@@ -1,0 +1,14 @@
+{
+  "name": "ListResourceTypes",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "EntityType",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

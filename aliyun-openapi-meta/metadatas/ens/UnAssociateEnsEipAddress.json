@@ -1,0 +1,14 @@
+{
+  "name": "UnAssociateEnsEipAddress",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AllocationId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

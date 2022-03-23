@@ -1,0 +1,14 @@
+{
+  "name": "GetThesaurusBySynonymForApi",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "JsonStr",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

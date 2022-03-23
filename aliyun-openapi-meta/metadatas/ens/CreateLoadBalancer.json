@@ -1,0 +1,44 @@
+{
+  "name": "CreateLoadBalancer",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "EnsRegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "LoadBalancerName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "LoadBalancerSpec",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "NetworkId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "PayType",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "VSwitchId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "SegmentBody",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Async",
+      "position": "Body",
+      "type": "Boolean",
+      "required": false
+    },
+    {
+      "name": "ImageURL",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ReturnForm",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "QueryDevicesByAlias",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "Alias",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "AppKey",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    }
+  ]
+}

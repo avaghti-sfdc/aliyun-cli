@@ -1,0 +1,62 @@
+{
+  "name": "DescribeApisByApp",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ApiName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "ApiUid",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "AppId",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "Method",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "PageNumber",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "PageSize",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "Path",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SecurityToken",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

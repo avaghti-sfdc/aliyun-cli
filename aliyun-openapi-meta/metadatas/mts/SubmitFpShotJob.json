@@ -1,0 +1,38 @@
+{
+  "name": "SubmitFpShotJob",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "FpShotConfig",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Input",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "PipelineId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "UserData",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    }
+  ]
+}

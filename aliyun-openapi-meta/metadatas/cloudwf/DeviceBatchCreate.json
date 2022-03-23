@@ -1,0 +1,26 @@
+{
+  "name": "DeviceBatchCreate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DeviceType",
+      "position": "Query",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "Sn",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

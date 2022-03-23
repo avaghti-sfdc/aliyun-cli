@@ -1,0 +1,32 @@
+{
+  "name": "AsymmetricEncrypt",
+  "protocol": "HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Algorithm",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "KeyId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "KeyVersionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Plaintext",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

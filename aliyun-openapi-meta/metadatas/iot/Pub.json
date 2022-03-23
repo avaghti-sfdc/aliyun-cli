@@ -1,0 +1,76 @@
+{
+  "name": "Pub",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "CorrelationData",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "IotInstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "MessageContent",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "ProductKey",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Qos",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "ResponseTopic",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "TopicFullName",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "UserProp",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false,
+      "sub_parameters": [
+        {
+          "name": "Key",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        },
+        {
+          "name": "Value",
+          "position": "Query",
+          "type": "String",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

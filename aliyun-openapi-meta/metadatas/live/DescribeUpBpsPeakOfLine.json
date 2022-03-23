@@ -1,0 +1,38 @@
+{
+  "name": "DescribeUpBpsPeakOfLine",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "DomainName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "DomainSwitch",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "EndTime",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Line",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "StartTime",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

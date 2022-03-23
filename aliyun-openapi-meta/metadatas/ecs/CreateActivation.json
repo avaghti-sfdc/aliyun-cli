@@ -1,0 +1,44 @@
+{
+  "name": "CreateActivation",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Description",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceCount",
+      "position": "Query",
+      "type": "Integer",
+      "required": false
+    },
+    {
+      "name": "InstanceName",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "IpAddressRange",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "RegionId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TimeToLiveInHours",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

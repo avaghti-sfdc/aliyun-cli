@@ -1,0 +1,14 @@
+{
+  "name": "DescribeDcdnDomainByCertificate",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "SSLPub",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

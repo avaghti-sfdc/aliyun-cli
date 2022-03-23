@@ -1,0 +1,32 @@
+{
+  "name": "GetApRunHistoryTimeSer",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "End",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    },
+    {
+      "name": "Id",
+      "position": "Query",
+      "type": "Long",
+      "required": true
+    },
+    {
+      "name": "Start",
+      "position": "Query",
+      "type": "Long",
+      "required": false
+    }
+  ]
+}

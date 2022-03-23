@@ -1,0 +1,32 @@
+{
+  "name": "ListSkillGroups",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "InstanceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "SkillGroupId",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    },
+    {
+      "name": "SkillGroupName",
+      "position": "Query",
+      "type": "RepeatList",
+      "required": false
+    }
+  ]
+}

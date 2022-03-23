@@ -1,0 +1,26 @@
+{
+  "name": "ResumeInstance",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET|POST",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "AccessKeyId",
+      "position": "Query",
+      "type": "String",
+      "required": false
+    },
+    {
+      "name": "SpMsg",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "TraceId",
+      "position": "Query",
+      "type": "String",
+      "required": true
+    }
+  ]
+}
