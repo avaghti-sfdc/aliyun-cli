@@ -4,13 +4,10 @@ export RELEASE_PATH="releases/aliyun-cli-${VERSION}"
 all: build
 publish: build build_mac build_linux build_windows build_linux_arm64 gen_version
 
-deps:
-	git submodule update --init --recursive
-
 clean:
 	rm -rf out/*
 
-build: deps
+build:
 	go build -ldflags "-X 'github.com/aliyun/aliyun-cli/cli.Version=${VERSION}'" -o out/aliyun main/main.go
 
 install: build
