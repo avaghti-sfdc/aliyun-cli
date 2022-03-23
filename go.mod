@@ -16,6 +16,8 @@ replace github.com/smartystreets/goconvey => ./local/goconvey
 
 replace golang.org/x/mod => ./local/mod
 
+replace github.com/onsi/gomega => ./local/gomega
+
 require (
 	github.com/alibabacloud-go/tea v1.1.17
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1529

@@ -82,7 +82,7 @@ github.com/onsi/ginkgo/reporters/stenographer
 github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable
 github.com/onsi/ginkgo/reporters/stenographer/support/go-isatty
 github.com/onsi/ginkgo/types
-# github.com/onsi/gomega v1.18.1
+# github.com/onsi/gomega v1.18.1 => ./local/gomega
 ## explicit
 github.com/onsi/gomega
 github.com/onsi/gomega/format
@@ -124,7 +124,7 @@ golang.org/x/net/html/atom
 golang.org/x/net/html/charset
 golang.org/x/net/internal/socks
 golang.org/x/net/proxy
-# golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+# golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
@@ -171,3 +171,4 @@ gopkg.in/yaml.v3
 # github.com/onsi/ginkgo/v2 => ./local/ginkgo_v2
 # github.com/smartystreets/goconvey => ./local/goconvey
 # golang.org/x/mod => ./local/mod
+# github.com/onsi/gomega => ./local/gomega
